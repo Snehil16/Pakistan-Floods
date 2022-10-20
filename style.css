@@ -82,7 +82,7 @@ a:hover {
   justify-content: space-evenly;
   flex-wrap: wrap;
   padding-top: 1.5vw;
-  align-items: center;
+  align-items: baseline;
 }
 .twoColumnContainer1{
   display: flex;
