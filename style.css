@@ -266,6 +266,8 @@ a:hover {
   position: relative;
   align-items: center;
   padding: 0px;
+
+
 }
 
 .articles{
@@ -276,6 +278,7 @@ a:hover {
 }
 
 #thumbnail{
+  padding-left: 10px;
   max-width:60%;
   object-fit: cover;
   flex-shrink: 0;
@@ -324,6 +327,7 @@ a:hover {
   font-weight: 600;
 }
 .donatepara{
+
   font-style: normal;
   font-size: 150%;
   line-height: 100%;
@@ -351,10 +355,12 @@ a:hover {
   position: relative;
   align-items: center;
   width:30%;
-  padding: 20px;
+  padding: 10px;
   border: 10px solid white;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin: 10px;
 }
+
 
 .donatetext{
   display: flex;
@@ -365,6 +371,27 @@ a:hover {
   line-height: 1.3;
   color: black;
   font-weight: 400;
+
+}
+
+
+.org{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* padding-bottom: 25px; */
+}
+.org h2{
+  padding-left: 20px;
+}
+
+
+.donateimg{
+
+  max-width:25%;
+  object-fit: cover;
+  flex-shrink: 0;
 }
 
 .button{
